@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExternalDataSource xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customConfiguration>{&quot;timeout&quot;:&quot;120&quot;}</customConfiguration>
+    <externalDataSrcDescriptors>
+        <fullName>SCHEMA_TABLE_METADATA01IB0000001IRDc</fullName>
+        <customObject>Order_Item__x</customObject>
+        <descriptor>{&quot;systemVersion&quot;:1,&quot;partiQlTableName&quot;:&quot;northwind&quot;,&quot;primaryIndex&quot;:{&quot;primary&quot;:true,&quot;name&quot;:&quot;PrimaryKey&quot;,&quot;partitionKey&quot;:&quot;pk&quot;,&quot;partitionKeyType&quot;:&quot;DbString&quot;,&quot;sortKey&quot;:&quot;sk&quot;,&quot;sortKeyType&quot;:&quot;DbString&quot;,&quot;projectionType&quot;:&quot;ALL&quot;,&quot;projectedColumns&quot;:[]},&quot;secondaryIndices&quot;:{&quot;customerID-data-index&quot;:{&quot;primary&quot;:false,&quot;name&quot;:&quot;customerID-data-index&quot;,&quot;partitionKey&quot;:&quot;customerID&quot;,&quot;partitionKeyType&quot;:&quot;DbString&quot;,&quot;sortKey&quot;:&quot;data&quot;,&quot;sortKeyType&quot;:&quot;DbString&quot;,&quot;projectionType&quot;:&quot;ALL&quot;,&quot;projectedColumns&quot;:[&quot;data&quot;,&quot;customerID&quot;]},&quot;pk-quantity-index&quot;:{&quot;primary&quot;:false,&quot;name&quot;:&quot;pk-quantity-index&quot;,&quot;partitionKey&quot;:&quot;pk&quot;,&quot;partitionKeyType&quot;:&quot;DbString&quot;,&quot;sortKey&quot;:&quot;quantity&quot;,&quot;sortKeyType&quot;:&quot;DbString&quot;,&quot;projectionType&quot;:&quot;ALL&quot;,&quot;projectedColumns&quot;:[&quot;quantity&quot;,&quot;pk&quot;]},&quot;gsi_1&quot;:{&quot;primary&quot;:false,&quot;name&quot;:&quot;gsi_1&quot;,&quot;partitionKey&quot;:&quot;sk&quot;,&quot;partitionKeyType&quot;:&quot;DbString&quot;,&quot;sortKey&quot;:&quot;data&quot;,&quot;sortKeyType&quot;:&quot;DbString&quot;,&quot;projectionType&quot;:&quot;ALL&quot;,&quot;projectedColumns&quot;:[&quot;data&quot;,&quot;sk&quot;]}},&quot;indicesKeyTypes&quot;:{&quot;quantity&quot;:&quot;DbString&quot;,&quot;data&quot;:&quot;DbString&quot;,&quot;sk&quot;:&quot;DbString&quot;,&quot;customerID&quot;:&quot;DbString&quot;,&quot;pk&quot;:&quot;DbString&quot;}}</descriptor>
+        <developerName>SCHEMA_TABLE_METADATA01IB0000001IRDc</developerName>
+        <externalDataSource>Online_Orders</externalDataSource>
+        <subtype>SchemaTableMetadata</subtype>
+        <systemVersion>1</systemVersion>
+        <type>Schema</type>
+    </externalDataSrcDescriptors>
+    <externalDataSrcDescriptors>
+        <fullName>SCHEMA_TABLE_METADATA01IB0000001IRDm</fullName>
+        <customObject>Shipper__x</customObject>
+        <descriptor>{&quot;systemVersion&quot;:1,&quot;partiQlTableName&quot;:&quot;northwind&quot;,&quot;primaryIndex&quot;:{&quot;primary&quot;:true,&quot;name&quot;:&quot;PrimaryKey&quot;,&quot;partitionKey&quot;:&quot;pk&quot;,&quot;partitionKeyType&quot;:&quot;DbString&quot;,&quot;sortKey&quot;:&quot;sk&quot;,&quot;sortKeyType&quot;:&quot;DbString&quot;,&quot;projectionType&quot;:&quot;ALL&quot;,&quot;projectedColumns&quot;:[]},&quot;secondaryIndices&quot;:{&quot;customerID-data-index&quot;:{&quot;primary&quot;:false,&quot;name&quot;:&quot;customerID-data-index&quot;,&quot;partitionKey&quot;:&quot;customerID&quot;,&quot;partitionKeyType&quot;:&quot;DbString&quot;,&quot;sortKey&quot;:&quot;data&quot;,&quot;sortKeyType&quot;:&quot;DbString&quot;,&quot;projectionType&quot;:&quot;ALL&quot;,&quot;projectedColumns&quot;:[&quot;data&quot;,&quot;customerID&quot;]},&quot;pk-quantity-index&quot;:{&quot;primary&quot;:false,&quot;name&quot;:&quot;pk-quantity-index&quot;,&quot;partitionKey&quot;:&quot;pk&quot;,&quot;partitionKeyType&quot;:&quot;DbString&quot;,&quot;sortKey&quot;:&quot;quantity&quot;,&quot;sortKeyType&quot;:&quot;DbString&quot;,&quot;projectionType&quot;:&quot;ALL&quot;,&quot;projectedColumns&quot;:[&quot;quantity&quot;,&quot;pk&quot;]},&quot;gsi_1&quot;:{&quot;primary&quot;:false,&quot;name&quot;:&quot;gsi_1&quot;,&quot;partitionKey&quot;:&quot;sk&quot;,&quot;partitionKeyType&quot;:&quot;DbString&quot;,&quot;sortKey&quot;:&quot;data&quot;,&quot;sortKeyType&quot;:&quot;DbString&quot;,&quot;projectionType&quot;:&quot;ALL&quot;,&quot;projectedColumns&quot;:[&quot;data&quot;,&quot;sk&quot;]}},&quot;indicesKeyTypes&quot;:{&quot;quantity&quot;:&quot;DbString&quot;,&quot;data&quot;:&quot;DbString&quot;,&quot;sk&quot;:&quot;DbString&quot;,&quot;customerID&quot;:&quot;DbString&quot;,&quot;pk&quot;:&quot;DbString&quot;}}</descriptor>
+        <developerName>SCHEMA_TABLE_METADATA01IB0000001IRDm</developerName>
+        <externalDataSource>Online_Orders</externalDataSource>
+        <subtype>SchemaTableMetadata</subtype>
+        <systemVersion>1</systemVersion>
+        <type>Schema</type>
+    </externalDataSrcDescriptors>
+    <externalDataSrcDescriptors>
+        <fullName>SCHEMA_TABLE_METADATA01IB0000001IRDX</fullName>
+        <customObject>Order__x</customObject>
+        <descriptor>{&quot;systemVersion&quot;:1,&quot;partiQlTableName&quot;:&quot;northwind&quot;,&quot;primaryIndex&quot;:{&quot;primary&quot;:true,&quot;name&quot;:&quot;PrimaryKey&quot;,&quot;partitionKey&quot;:&quot;pk&quot;,&quot;partitionKeyType&quot;:&quot;DbString&quot;,&quot;sortKey&quot;:&quot;sk&quot;,&quot;sortKeyType&quot;:&quot;DbString&quot;,&quot;projectionType&quot;:&quot;ALL&quot;,&quot;projectedColumns&quot;:[]},&quot;secondaryIndices&quot;:{&quot;customerID-data-index&quot;:{&quot;primary&quot;:false,&quot;name&quot;:&quot;customerID-data-index&quot;,&quot;partitionKey&quot;:&quot;customerID&quot;,&quot;partitionKeyType&quot;:&quot;DbString&quot;,&quot;sortKey&quot;:&quot;data&quot;,&quot;sortKeyType&quot;:&quot;DbString&quot;,&quot;projectionType&quot;:&quot;ALL&quot;,&quot;projectedColumns&quot;:[&quot;data&quot;,&quot;customerID&quot;]},&quot;pk-quantity-index&quot;:{&quot;primary&quot;:false,&quot;name&quot;:&quot;pk-quantity-index&quot;,&quot;partitionKey&quot;:&quot;pk&quot;,&quot;partitionKeyType&quot;:&quot;DbString&quot;,&quot;sortKey&quot;:&quot;quantity&quot;,&quot;sortKeyType&quot;:&quot;DbString&quot;,&quot;projectionType&quot;:&quot;ALL&quot;,&quot;projectedColumns&quot;:[&quot;quantity&quot;,&quot;pk&quot;]},&quot;gsi_1&quot;:{&quot;primary&quot;:false,&quot;name&quot;:&quot;gsi_1&quot;,&quot;partitionKey&quot;:&quot;sk&quot;,&quot;partitionKeyType&quot;:&quot;DbString&quot;,&quot;sortKey&quot;:&quot;data&quot;,&quot;sortKeyType&quot;:&quot;DbString&quot;,&quot;projectionType&quot;:&quot;ALL&quot;,&quot;projectedColumns&quot;:[&quot;data&quot;,&quot;sk&quot;]}},&quot;indicesKeyTypes&quot;:{&quot;quantity&quot;:&quot;DbString&quot;,&quot;data&quot;:&quot;DbString&quot;,&quot;sk&quot;:&quot;DbString&quot;,&quot;customerID&quot;:&quot;DbString&quot;,&quot;pk&quot;:&quot;DbString&quot;}}</descriptor>
+        <developerName>SCHEMA_TABLE_METADATA01IB0000001IRDX</developerName>
+        <externalDataSource>Online_Orders</externalDataSource>
+        <subtype>SchemaTableMetadata</subtype>
+        <systemVersion>1</systemVersion>
+        <type>Schema</type>
+    </externalDataSrcDescriptors>
+    <externalDataSrcDescriptors>
+        <fullName>SCHEMA_TABLE_METADATA01IB0000001IRoZ</fullName>
+        <customObject>Shipping_Update__x</customObject>
+        <descriptor>{&quot;systemVersion&quot;:1,&quot;partiQlTableName&quot;:&quot;shipping_updates&quot;,&quot;primaryIndex&quot;:{&quot;primary&quot;:true,&quot;name&quot;:&quot;PrimaryKey&quot;,&quot;partitionKey&quot;:&quot;vin&quot;,&quot;partitionKeyType&quot;:&quot;DbString&quot;,&quot;sortKey&quot;:&quot;updated_on&quot;,&quot;sortKeyType&quot;:&quot;DbString&quot;,&quot;projectionType&quot;:&quot;ALL&quot;,&quot;projectedColumns&quot;:[]},&quot;secondaryIndices&quot;:{&quot;city-status-index&quot;:{&quot;primary&quot;:false,&quot;name&quot;:&quot;city-status-index&quot;,&quot;partitionKey&quot;:&quot;city&quot;,&quot;partitionKeyType&quot;:&quot;DbString&quot;,&quot;sortKey&quot;:&quot;status&quot;,&quot;sortKeyType&quot;:&quot;DbString&quot;,&quot;projectionType&quot;:&quot;ALL&quot;,&quot;projectedColumns&quot;:[&quot;city&quot;,&quot;status&quot;]}},&quot;indicesKeyTypes&quot;:{&quot;updated_on&quot;:&quot;DbString&quot;,&quot;city&quot;:&quot;DbString&quot;,&quot;vin&quot;:&quot;DbString&quot;,&quot;status&quot;:&quot;DbString&quot;}}</descriptor>
+        <developerName>SCHEMA_TABLE_METADATA01IB0000001IRoZ</developerName>
+        <externalDataSource>Online_Orders</externalDataSource>
+        <subtype>SchemaTableMetadata</subtype>
+        <systemVersion>1</systemVersion>
+        <type>Schema</type>
+    </externalDataSrcDescriptors>
+    <externalDataSrcDescriptors>
+        <fullName>SCHEMA_TABLE_METADATA01IB0000001ITMb</fullName>
+        <customObject>Invoice__x</customObject>
+        <descriptor>{&quot;systemVersion&quot;:1,&quot;partiQlTableName&quot;:&quot;invoice_payments&quot;,&quot;primaryIndex&quot;:{&quot;primary&quot;:true,&quot;name&quot;:&quot;PrimaryKey&quot;,&quot;partitionKey&quot;:&quot;pk&quot;,&quot;partitionKeyType&quot;:&quot;DbString&quot;,&quot;sortKey&quot;:&quot;sk&quot;,&quot;sortKeyType&quot;:&quot;DbString&quot;,&quot;projectionType&quot;:&quot;ALL&quot;,&quot;projectedColumns&quot;:[]},&quot;secondaryIndices&quot;:{&quot;custID-sentDate-index&quot;:{&quot;primary&quot;:false,&quot;name&quot;:&quot;custID-sentDate-index&quot;,&quot;partitionKey&quot;:&quot;custID&quot;,&quot;partitionKeyType&quot;:&quot;DbString&quot;,&quot;sortKey&quot;:&quot;sentDate&quot;,&quot;sortKeyType&quot;:&quot;DbString&quot;,&quot;projectionType&quot;:&quot;ALL&quot;,&quot;projectedColumns&quot;:[&quot;sentDate&quot;,&quot;custID&quot;]},&quot;pk-amount-index&quot;:{&quot;primary&quot;:false,&quot;name&quot;:&quot;pk-amount-index&quot;,&quot;partitionKey&quot;:&quot;pk&quot;,&quot;partitionKeyType&quot;:&quot;DbString&quot;,&quot;sortKey&quot;:&quot;amount&quot;,&quot;sortKeyType&quot;:&quot;DbNumber&quot;,&quot;projectionType&quot;:&quot;ALL&quot;,&quot;projectedColumns&quot;:[&quot;amount&quot;,&quot;pk&quot;]}},&quot;indicesKeyTypes&quot;:{&quot;sentDate&quot;:&quot;DbString&quot;,&quot;amount&quot;:&quot;DbNumber&quot;,&quot;sk&quot;:&quot;DbString&quot;,&quot;custID&quot;:&quot;DbString&quot;,&quot;pk&quot;:&quot;DbString&quot;}}</descriptor>
+        <developerName>SCHEMA_TABLE_METADATA01IB0000001ITMb</developerName>
+        <externalDataSource>Online_Orders</externalDataSource>
+        <subtype>SchemaTableMetadata</subtype>
+        <systemVersion>1</systemVersion>
+        <type>Schema</type>
+    </externalDataSrcDescriptors>
+    <externalDataSrcDescriptors>
+        <fullName>SCHEMA_TABLE_METADATA01IB0000001ITMg</fullName>
+        <customObject>Payment__x</customObject>
+        <descriptor>{&quot;systemVersion&quot;:1,&quot;partiQlTableName&quot;:&quot;invoice_payments&quot;,&quot;primaryIndex&quot;:{&quot;primary&quot;:true,&quot;name&quot;:&quot;PrimaryKey&quot;,&quot;partitionKey&quot;:&quot;pk&quot;,&quot;partitionKeyType&quot;:&quot;DbString&quot;,&quot;sortKey&quot;:&quot;sk&quot;,&quot;sortKeyType&quot;:&quot;DbString&quot;,&quot;projectionType&quot;:&quot;ALL&quot;,&quot;projectedColumns&quot;:[]},&quot;secondaryIndices&quot;:{&quot;custID-sentDate-index&quot;:{&quot;primary&quot;:false,&quot;name&quot;:&quot;custID-sentDate-index&quot;,&quot;partitionKey&quot;:&quot;custID&quot;,&quot;partitionKeyType&quot;:&quot;DbString&quot;,&quot;sortKey&quot;:&quot;sentDate&quot;,&quot;sortKeyType&quot;:&quot;DbString&quot;,&quot;projectionType&quot;:&quot;ALL&quot;,&quot;projectedColumns&quot;:[&quot;sentDate&quot;,&quot;custID&quot;]},&quot;pk-amount-index&quot;:{&quot;primary&quot;:false,&quot;name&quot;:&quot;pk-amount-index&quot;,&quot;partitionKey&quot;:&quot;pk&quot;,&quot;partitionKeyType&quot;:&quot;DbString&quot;,&quot;sortKey&quot;:&quot;amount&quot;,&quot;sortKeyType&quot;:&quot;DbNumber&quot;,&quot;projectionType&quot;:&quot;ALL&quot;,&quot;projectedColumns&quot;:[&quot;amount&quot;,&quot;pk&quot;]}},&quot;indicesKeyTypes&quot;:{&quot;sentDate&quot;:&quot;DbString&quot;,&quot;amount&quot;:&quot;DbNumber&quot;,&quot;sk&quot;:&quot;DbString&quot;,&quot;custID&quot;:&quot;DbString&quot;,&quot;pk&quot;:&quot;DbString&quot;}}</descriptor>
+        <developerName>SCHEMA_TABLE_METADATA01IB0000001ITMg</developerName>
+        <externalDataSource>Online_Orders</externalDataSource>
+        <subtype>SchemaTableMetadata</subtype>
+        <systemVersion>1</systemVersion>
+        <type>Schema</type>
+    </externalDataSrcDescriptors>
+    <externalDataSrcDescriptors>
+        <fullName>SCHEMA_TABLE_QUALIFIERS01IB0000001IRDcMAO</fullName>
+        <customObject>Order_Item__x</customObject>
+        <descriptor>{
+  &quot;tableName&quot;: &quot;northwind&quot;,
+    &quot;columns&quot;: {
+    &quot;pk&quot;: {
+      &quot;postFilter&quot;: &quot;^[0-9]+$&quot;
+    },
+    &quot;sk&quot;: {
+      &quot;filter&quot;: &quot;products#%&quot;
+    },
+    &quot;productCode&quot;: {
+      &quot;virtual&quot;: true,
+      &quot;values&quot;: [
+        {
+          &quot;definition&quot;: &quot;VALUE(RIGHT(sk, LEN(sk) - FIND(\&quot;#\&quot;, sk)))&quot;
+        }
+      ]
+    },
+    &quot;data&quot;: {
+      &quot;type&quot;: &quot;S&quot;,
+        &quot;values&quot;: [{ &quot;definition&quot;: &quot;TEXT(price)&quot; }]
+    },
+    &quot;price&quot;: {
+      &quot;virtual&quot;: true,
+        &quot;type&quot;: &quot;N&quot;,
+          &quot;values&quot;: [{ &quot;definition&quot;: &quot;VALUE(data)&quot; }]
+    },
+    &quot;quantity&quot;: {
+      &quot;type&quot;: &quot;S&quot;,
+        &quot;values&quot;: [{ &quot;definition&quot;: &quot;TEXT(quant)&quot; }]
+    },
+    &quot;quant&quot;: {
+      &quot;virtual&quot;: true,
+        &quot;type&quot;: &quot;N&quot;,
+          &quot;values&quot;: [{ &quot;definition&quot;: &quot;VALUE(quantity)&quot;, &quot;columnOrder&quot;: [&quot;quantity&quot;] }]
+    },
+    &quot;discount&quot;: {
+      &quot;type&quot;: &quot;S&quot;,
+        &quot;values&quot;: [{ &quot;definition&quot;: &quot;TEXT(disc/100)&quot; }]
+    },
+    &quot;disc&quot;: {
+      &quot;virtual&quot;: true,
+        &quot;type&quot;: &quot;N&quot;,
+          &quot;values&quot;: [{ &quot;definition&quot;: &quot;VALUE(discount)*100&quot; }]
+    }
+  }
+}</descriptor>
+        <developerName>SCHEMA_TABLE_QUALIFIERS01IB0000001IRDcMAO</developerName>
+        <externalDataSource>Online_Orders</externalDataSource>
+        <subtype>SchemaTableQualifiers</subtype>
+        <systemVersion>0</systemVersion>
+        <type>Schema</type>
+    </externalDataSrcDescriptors>
+    <externalDataSrcDescriptors>
+        <fullName>SCHEMA_TABLE_QUALIFIERS01IB0000001IRDmMAO</fullName>
+        <customObject>Shipper__x</customObject>
+        <descriptor>{
+  &quot;columns&quot;: {
+    &quot;pk&quot;: {
+      &quot;filter&quot;: &quot;shippers#%&quot;,
+      &quot;values&quot;: [
+        {
+          &quot;definition&quot;: &quot;\&quot;shippers#\&quot;+shipper&quot;
+        }
+      ]
+    },
+    &quot;sk&quot;: {
+      &quot;values&quot;: [
+        {
+          &quot;definition&quot;: &quot;\&quot;SHIPPER\&quot;&quot;
+        }
+      ]
+    },
+    &quot;shipper&quot;: {
+      &quot;virtual&quot;: true,
+      &quot;values&quot;: [
+        {
+          &quot;definition&quot;: &quot;MID(pk, FIND(\&quot;#\&quot;, pk)+1, LEN(pk))&quot;
+        }
+      ]
+    }
+  }
+}</descriptor>
+        <developerName>SCHEMA_TABLE_QUALIFIERS01IB0000001IRDmMAO</developerName>
+        <externalDataSource>Online_Orders</externalDataSource>
+        <subtype>SchemaTableQualifiers</subtype>
+        <systemVersion>0</systemVersion>
+        <type>Schema</type>
+    </externalDataSrcDescriptors>
+    <externalDataSrcDescriptors>
+        <fullName>SCHEMA_TABLE_QUALIFIERS01IB0000001IRDXMA4</fullName>
+        <customObject>Order__x</customObject>
+        <descriptor>{
+   &quot;columns&quot;: {
+      &quot;pk&quot;: {
+         &quot;postFilter&quot;: &quot;^[0-9]+$&quot;,
+         &quot;type&quot;: &quot;S&quot;
+      },
+      &quot;sk&quot;: {
+         &quot;values&quot;: [
+            {
+               &quot;definition&quot;: &quot;\&quot;ORDER\&quot;&quot;
+            }
+         ]
+      },
+      &quot;data&quot;: {
+         &quot;presence&quot;: &quot;any&quot;,
+         &quot;type&quot;: &quot;S&quot;,
+         &quot;values&quot;: [
+            {
+               &quot;definition&quot;: &quot;TEXT(orderDate)&quot;
+            }
+         ]
+      },
+      &quot;orderDate&quot;: {
+         &quot;virtual&quot;: true,
+         &quot;values&quot;: [
+            {
+               &quot;definition&quot;: &quot;DATEVALUE(data)&quot;, &quot;columnOrder&quot;: [&quot;data&quot;]
+            }
+         ]
+      },
+      &quot;requiredDate&quot;: {
+         &quot;presence&quot;: &quot;any&quot;,
+         &quot;type&quot;: &quot;S&quot;,
+         &quot;values&quot;: [
+            {
+               &quot;definition&quot;: &quot;TEXT(required)&quot;
+            }
+         ]
+      },
+      &quot;required&quot;: {
+         &quot;virtual&quot;: true,
+         &quot;values&quot;: [
+            {
+               &quot;definition&quot;: &quot;DATEVALUE(requiredDate)&quot;
+            }
+         ]
+      },
+      &quot;shippedDate&quot;: {
+         &quot;presence&quot;: &quot;any&quot;,
+         &quot;type&quot;: &quot;S&quot;,
+         &quot;values&quot;: [
+            {
+               &quot;definition&quot;: &quot;TEXT(shipped)&quot;
+            }
+         ]
+      },
+      &quot;shipped&quot;: {
+         &quot;virtual&quot;: true,
+         &quot;values&quot;: [
+            {
+               &quot;definition&quot;: &quot;DATEVALUE(shippedDate)&quot;
+            }
+         ]
+      },
+      &quot;freight&quot;: {
+         &quot;type&quot;: &quot;S&quot;,
+         &quot;values&quot;: [
+            {
+               &quot;definition&quot;: &quot;TEXT(shippingCharge)&quot;
+            }
+         ]
+      },
+      &quot;shippingCharge&quot;: {
+         &quot;virtual&quot;: true,
+         &quot;type&quot;: &quot;N&quot;,
+         &quot;values&quot;: [
+            {
+               &quot;definition&quot;: &quot;VALUE(freight)&quot;
+            }
+         ]
+      }
+   }
+}</descriptor>
+        <developerName>SCHEMA_TABLE_QUALIFIERS01IB0000001IRDXMA4</developerName>
+        <externalDataSource>Online_Orders</externalDataSource>
+        <subtype>SchemaTableQualifiers</subtype>
+        <systemVersion>0</systemVersion>
+        <type>Schema</type>
+    </externalDataSrcDescriptors>
+    <externalDataSrcDescriptors>
+        <fullName>SCHEMA_TABLE_QUALIFIERS01IB0000001IRoZMAW</fullName>
+        <customObject>Shipping_Update__x</customObject>
+        <descriptor>{
+  &quot;columns&quot;: {
+    &quot;city&quot;: {
+      &quot;presence&quot;: &quot;any&quot;,
+      &quot;type&quot;: &quot;S&quot;,
+      &quot;values&quot;: [{
+        &quot;definition&quot;: &quot;LEFT(location, FIND(\&quot;,\&quot;, location)-1)&quot;
+      }]
+    },
+    &quot;state&quot;: {
+      &quot;presence&quot;: &quot;any&quot;,
+      &quot;type&quot;: &quot;S&quot;,
+      &quot;values&quot;: [{
+        &quot;definition&quot;: &quot;MID(location, FIND(\&quot;, \&quot;, location)+2, LEN(location))&quot;
+      }]
+    },
+    &quot;location&quot;: {
+      &quot;virtual&quot;: &quot;true&quot;,
+      &quot;values&quot;: [{
+        &quot;definition&quot;: &quot;city+\&quot;, \&quot;+state&quot;
+      }]
+    }
+  }
+}</descriptor>
+        <developerName>SCHEMA_TABLE_QUALIFIERS01IB0000001IRoZMAW</developerName>
+        <externalDataSource>Online_Orders</externalDataSource>
+        <subtype>SchemaTableQualifiers</subtype>
+        <systemVersion>0</systemVersion>
+        <type>Schema</type>
+    </externalDataSrcDescriptors>
+    <externalDataSrcDescriptors>
+        <fullName>SCHEMA_TABLE_QUALIFIERS01IB0000001ITMbMAO</fullName>
+        <customObject>Invoice__x</customObject>
+        <descriptor>{
+   &quot;tableName&quot;:&quot;invoice_payments&quot;,
+   &quot;columns&quot;:{
+      &quot;pk&quot;:{
+         &quot;postFilter&quot;:&quot;^[0-9]+$&quot;
+      },
+      &quot;sk&quot;:{
+         &quot;filter&quot;:&quot;invoice&quot;,
+         &quot;values&quot;:[
+            {
+               &quot;definition&quot;:&quot;\&quot;invoice\&quot;&quot;
+            }
+         ]
+      }
+   }
+}</descriptor>
+        <developerName>SCHEMA_TABLE_QUALIFIERS01IB0000001ITMbMAO</developerName>
+        <externalDataSource>Online_Orders</externalDataSource>
+        <subtype>SchemaTableQualifiers</subtype>
+        <systemVersion>0</systemVersion>
+        <type>Schema</type>
+    </externalDataSrcDescriptors>
+    <externalDataSrcDescriptors>
+        <fullName>SCHEMA_TABLE_QUALIFIERS01IB0000001ITMgMAO</fullName>
+        <customObject>Payment__x</customObject>
+        <descriptor> {
+       &quot;tableName&quot;:&quot;invoice_payments&quot;,
+       &quot;columns&quot;:{
+          &quot;pk&quot;:{
+             &quot;postFilter&quot;:&quot;^[0-9]+$&quot;
+          },
+          &quot;sk&quot;:{
+             &quot;filter&quot;:&quot;payment#%&quot;
+          },
+          &quot;paymentNumber&quot;:{
+             &quot;virtual&quot;:true,
+             &quot;values&quot;:[
+                {
+                   &quot;definition&quot;:&quot;VALUE(RIGHT(sk, LEN(sk) - FIND(\&quot;#\&quot;, sk)))&quot;
+                }
+             ]
+          }
+       }
+    }</descriptor>
+        <developerName>SCHEMA_TABLE_QUALIFIERS01IB0000001ITMgMAO</developerName>
+        <externalDataSource>Online_Orders</externalDataSource>
+        <subtype>SchemaTableQualifiers</subtype>
+        <systemVersion>0</systemVersion>
+        <type>Schema</type>
+    </externalDataSrcDescriptors>
+    <isWritable>true</isWritable>
+    <label>Online Orders</label>
+    <namedCredential>DynamoDBUSWest2</namedCredential>
+    <principalType>Anonymous</principalType>
+    <protocol>NoAuthentication</protocol>
+    <type>AmazonDynamoDb</type>
+</ExternalDataSource>
